@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Montserrat:wght@200;400&family=Poppins:wght@100;200;300&display=swap');
+
+body {
+    font-family: 'Poppins'; 
+    margin: 0;
+    padding: 0;
+  }
+  
+li {
+    list-style: none;
+    float: right;
+    padding: 20px 30px;
+    
+}
+
+header {
+    color: black;
+    height: 90px;
+    border-bottom: 5px solid black;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0px;
+
+}
+
+
+
+
+  
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding:5px 40px;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+ }
+
+ nav a:hover{
+     font-weight: bold;
+     border-bottom: 2px solid rgb(250, 204, 0);
+ }
+ nav h4:hover{
+    font-weight: bold;
+}
+
+
+#Home{
+    margin: 0 15px;
+}
+
+.Object-Left{
+    float: left;
+    width: 50%;
+    margin-top: 10em;
+    margin-right: 0em;
+}
+.Bagus{
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: bold;
+}
+.Jurusan{
+    line-height: 5px;
+    font-weight: 600;
+    font-size: 1.5em;
+    color: gray;
+}
+
+.Wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Informasi{
+    width: 400px;
+    color: gray;
+    text-align: justify;
+}
+
+.Object-Right{
+    float: right;
+    width: 50%;
+}
+img{
+    width: 100%;
+    
+}
+.button-1{
+    background-color: rgb(245, 221, 114);
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+     
+}
+
+.button-1:hover{
+    background-color: rgb(250, 204, 0);
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+main {
+    padding: 100px;
+    overflow: auto; 
+ }
+
+ #About-me{
+     text-align: justify;
+     background-color: white;
+         
+ }
+ .Header-Name{
+     text-align: center;
+ }
+ .box{
+     color: black;
+ }
+
+ .box .column{
+     width: 33.3%;
+     padding: 20px;
+     box-sizing: border-box;
+     text-align: center;
+     float: left;
+
+ }
+
+ .icon{
+     width: 70px;
+     height: 70px;
+     border: 2px solid rgb(250, 204, 0);
+     /* border: 3px solid black; */
+     border-radius: 50%;
+     margin: 0 auto;
+     text-align: center;
+     line-height: 70px;
+     font-size: 20px;
+
+ }
+ footer{
+    padding: 30px;
+    color: white;
+    background-color: rgb(250, 204, 0);
+    text-align: center;
+    border-top: 5px solid black;
+    
+}
+#Halo{
+    font-weight: bold;
+}
+.Activities{
+    text-align: justify;
+}
+@media screen and (max-width:1000px) {
+    #content, aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+ 
+  
+  
